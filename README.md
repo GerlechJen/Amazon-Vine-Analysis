@@ -15,15 +15,19 @@ The data frame above was further filtered into two to obtain a Vine data frame w
 
 ![image2](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/vine%20data%20frame%20.png)
 
-Below is the non Vine dataframe 
+Below is the non Vine dataframe:
+![image3](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/non%20vine%20data%20frame%20.png)
 
 The total number of reviews for the Vine and non-Vine programs were found next. Both counts are shown below:
 
+![image4](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/Vine%20count.png)
 
+![image5](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/non%20Vine%20count.png)
 
+* From the above tables we can see that there were 607 Vine reviews and 50,522 non-Vine reviews.
 
+Next I found the number of 5-star reviews for both paid and unpaid reviews. The results are shown below:
 
-* After the analysis, it was discovered that there were 607 Vine reviews and 50,522 non-Vine reviews as seen from the image above.
 * Out of the 607 Vine reviews, 257 were 5 stars and 25,220 out of the 50,522 non-Vine reviews were 5 stars. The results is shown in the image below:
 
 
