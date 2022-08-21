@@ -25,7 +25,7 @@ The total number of reviews for the Vine and non Vine programs were found next. 
 
 ![image5](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/non%20Vine%20count.png)
 
-* From the above tables we can see that there were 607 Vine reviews and 50,522 non Vine reviews.
+* From the above tables we can see that there were 607 Vine reviews and 50,522 non-Vine reviews.
 
 Next I found the number of 5-star reviews for both paid and unpaid reviews. The results are shown below:
 
@@ -35,7 +35,7 @@ Next I found the number of 5-star reviews for both paid and unpaid reviews. The 
 
 * As it can be seen from the 2 tables, out of the 607 Vine reviews, 257 were 5-stars reviews and 25,220 out of the 50,522 non-Vine reviews were 5 stars reviews.
 
-Finally, the percentage of Vine and non Vine reviews that were 5-star were calculated. 
+Finally, the percentage of Vine and non-Vine reviews that were 5-stars were calculated. 
 
 ![image8](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/percentage_paid.png)
 
@@ -45,8 +45,8 @@ Finally, the percentage of Vine and non Vine reviews that were 5-star were calcu
 
 
 ## Summary 
-From the results given, there isn't any positivity bias for reviews in the Vine program. This is because the percentage of 5-star reviews for the Vine program was less compared to the percentage of 5-star reviews for the non-Vine reviews. 
-This conclusion can be further examined by finding the percentage of all stars(1,2,3,and 4 stars) for both paid(Vine) and unpaid(non Vine) reviews. Aside from that this same analysis can be performed on a few more different categories of products for a more thorough analysis.
+From the results given, there isn't any positivity bias for reviews in the Vine program. This is because the percentage of 5-star reviews for the Vine program was actually lower compared to the percentage of 5-star reviews for the non-Vine reviews. 
+This conclusion can be further examined by finding the percentage of all stars(1,2,3,and 4 stars) for both paid(Vine) and unpaid(non-Vine) reviews so that a conclusive statement can be made on the reviews for the camera category. Aside from that, this same analysis can be performed on a few more different categories of products for a more thorough analysis.
 
 
 ----
