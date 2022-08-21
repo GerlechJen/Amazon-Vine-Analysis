@@ -6,11 +6,11 @@ I will be analyzing Amazon reviews written by members of the paid Amazon Vine pr
 In this project, 50 datasets of product categories are available to chose from. I chose to analyze reviews in the Camera category. I used PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, using PySpark, I determined if there is any bias toward favorable reviews from Vine members in the dataset.
 
 ## Results 
-The raw camera dataset had 1,801,974 rows. I created a Vine data frame which had columns review_id, star_rating, helpful_votes, total_votes, vine, and verified_purchase". I filtered this dataframe based on reviews that had more than 20 total votes, and at the same time have the number of helpful votes divided by the number of total votes being equal to or greater than 50%. This reduced the number of rows to 51129. The resulting table is shown below:
+The raw camera dataset had 1,801,974 rows. I created a Vine data frame which had columns review_id, star_rating, helpful_votes, total_votes, vine, and verified_purchase. I filtered this dataframe based on reviews that had more than 20 total votes, and at the same time had the number of helpful votes divided by the number of total votes being equal to or greater than 50%. This reduced the number of rows to 51129. The resulting table is shown below:
 
 ![image1](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/helpful_votes.png)
 
-The data frame above was further filtered into two to obtain a Vine data frame where a review was written as part of the Vine program and a non Vine data frame where the review was not part of the Vine program. The vine data frame is shown below:
+The data frame above was further filtered into two to obtain a Vine data frame where a review was written as part of the Vine program, and a non Vine data frame where the review was not part of the Vine program. The vine data frame is shown below:
 
 
 ![image2](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/vine%20data%20frame%20.png)
