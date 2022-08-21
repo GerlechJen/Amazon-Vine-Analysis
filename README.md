@@ -6,7 +6,10 @@ I will be analyzing Amazon reviews written by members of the paid Amazon Vine pr
 In this project, 50 datasets of product categories are available to chose from. I chose to analyze reviews in the Camera category. I used PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, using PySpark, I determined if there is any bias toward favorable reviews from Vine members in the dataset.
 
 ## Results 
-To begin with, I filtered the available reviews to just those with more than 20 total votes, and at the same time having the number of helpful votes divided by the number of total votes being equal to or greater than 50%. The table was further filtered into two to obtain a table where a review was written as part of the Vine program and a table where the review was not part of the Vine program.
+The raw data had 1801974 rows. I created a Vine data frame which had columns review_id, star_rating, helpful_votes, total_votes, vine, and verified_purchase". I filtered this dataframe based on reviews that had more than 20 total votes, and at the same time have the number of helpful votes divided by the number of total votes being equal to or greater than 50%. This reduced the number of rows to 51129. The resulting table is shown below:
+
+
+The table above was further filtered into two to obtain a table where a review was written as part of the Vine program and a table where the review was not part of the Vine program.
 
 The total number of reviews for the Vine and non-Vine programs were found next.
 
@@ -19,7 +22,7 @@ The total number of reviews for the Vine and non-Vine programs were found next.
 
 ## Summary 
 From the results given, there isn't any positivity bias for reviews in the Vine program. This is because the percentage of 5-star reviews for the Vine program was less compared to the percentage of 5-star reviews for the non-Vine reviews. 
-To support this, analysis could be performed by finding out the number of 1 star reviews for 
+This conclusion can be further examined by finding the percentage of all stars(1,2,3,and 4 stars) for paid and unpaid reviews. Aside from that this same analysis can be performed on a few more different categories of products for a more thorough analysis.
 
 
 
