@@ -28,7 +28,11 @@ The total number of reviews for the Vine and non-Vine programs were found next. 
 
 Next I found the number of 5-star reviews for both paid and unpaid reviews. The results are shown below:
 
-* Out of the 607 Vine reviews, 257 were 5 stars and 25,220 out of the 50,522 non-Vine reviews were 5 stars. The results is shown in the image below:
+![image6](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/5-star%20paid.png)
+
+![image7](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/5-star%20unpaid.png)
+
+* As it can be seen from the 2 tables, out of the 607 Vine reviews, 257 were 5-stars reviews and 25,220 out of the 50,522 non-Vine reviews were 5 stars reviews.
 
 
 * 42.3% of Vine reviews were 5 stars and 49.9% of non-Vine reviews were 5 stars
