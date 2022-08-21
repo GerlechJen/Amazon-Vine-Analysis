@@ -8,10 +8,20 @@ In this project, 50 datasets of product categories are available to chose from. 
 ## Results 
 The raw data had 1801974 rows. I created a Vine data frame which had columns review_id, star_rating, helpful_votes, total_votes, vine, and verified_purchase". I filtered this dataframe based on reviews that had more than 20 total votes, and at the same time have the number of helpful votes divided by the number of total votes being equal to or greater than 50%. This reduced the number of rows to 51129. The resulting table is shown below:
 
+![image1](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/helpful_votes.png)
 
-The table above was further filtered into two to obtain a table where a review was written as part of the Vine program and a table where the review was not part of the Vine program.
+The data frame above was further filtered into two to obtain a Vine data frame where a review was written as part of the Vine program and a non Vine data frame where the review was not part of the Vine program. The vine data frame is shown below:
 
-The total number of reviews for the Vine and non-Vine programs were found next.
+
+![image2](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/vine%20data%20frame%20.png)
+
+Below is the non Vine dataframe 
+
+The total number of reviews for the Vine and non-Vine programs were found next. Both counts are shown below:
+
+
+
+
 
 * After the analysis, it was discovered that there were 607 Vine reviews and 50,522 non-Vine reviews as seen from the image above.
 * Out of the 607 Vine reviews, 257 were 5 stars and 25,220 out of the 50,522 non-Vine reviews were 5 stars. The results is shown in the image below:
