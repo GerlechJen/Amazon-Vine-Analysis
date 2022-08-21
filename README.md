@@ -34,13 +34,24 @@ Next I found the number of 5-star reviews for both paid and unpaid reviews. The 
 
 * As it can be seen from the 2 tables, out of the 607 Vine reviews, 257 were 5-stars reviews and 25,220 out of the 50,522 non-Vine reviews were 5 stars reviews.
 
+Finally, the percentage of Vine and non Vine reviews that were 5-star were calculated. 
 
-* 42.3% of Vine reviews were 5 stars and 49.9% of non-Vine reviews were 5 stars
+![image8](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/percentage_paid.png)
+
+![image9](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/percentage_unpaid.png)
+
+* As it can be seen, 42.3% of Vine reviews were 5 stars and 49.9% of non-Vine reviews were 5 stars.
 
 
 ## Summary 
 From the results given, there isn't any positivity bias for reviews in the Vine program. This is because the percentage of 5-star reviews for the Vine program was less compared to the percentage of 5-star reviews for the non-Vine reviews. 
-This conclusion can be further examined by finding the percentage of all stars(1,2,3,and 4 stars) for paid and unpaid reviews. Aside from that this same analysis can be performed on a few more different categories of products for a more thorough analysis.
+This conclusion can be further examined by finding the percentage of all stars(1,2,3,and 4 stars) for both paid(Vine) and unpaid(non Vine) reviews. Aside from that this same analysis can be performed on a few more different categories of products for a more thorough analysis.
 
+
+----
+
+**Completed by:** Jennifer Anno-Kusi
+
+**Email:** jannokusi@gmail.com 
 
 
