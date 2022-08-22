@@ -48,6 +48,8 @@ Finally, the percentage of Vine and non-Vine reviews that were 5-stars were calc
 From the results given, there isn't any positivity bias for reviews in the Vine program. This is because the percentage of 5-star reviews for the Vine program was actually lower compared to the percentage of 5-star reviews for the non-Vine reviews. 
 This conclusion can be further examined by using reviews that had total votes being greater than **10** instead of 20 that was used for this analysis. When this new analysis is carried out, we get the percentage of 5-star reviews for the Vine program being 44.2% while that of the non-Vine reviews was 49.4% which goes to confirm once again that there is no positivity bias for reviews in the Vine program.
 
+![final](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/summary%20image.png)
+
 ----
 
 **Completed by:** Jennifer Anno-Kusi
