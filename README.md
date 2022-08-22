@@ -10,16 +10,16 @@ The raw camera dataset had 1,801,974 rows. I created a Vine data frame which had
 
 ![image1](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/helpful_votes.png)
 
-The data frame above was further filtered into two to obtain a Vine data frame where a review was written as part of the Vine program, and a non Vine data frame where the review was not part of the Vine program. The Vine data frame is shown below:
+The data frame above was further filtered into two to obtain a Vine data frame where a review was written as part of the Vine program, and a non-Vine data frame where the review was not part of the Vine program. The Vine data frame is shown below:
 
 
 ![image2](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/vine%20data%20frame%20.png)
 
-Below is the non Vine data frame:
+Below is the non-Vine data frame:
 
 ![image3](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/non%20vine%20data%20frame%20.png)
 
-The total number of reviews for the Vine and non Vine programs were found next. Both counts are shown below:
+The total number of reviews for the Vine and non-Vine programs were found next. Both counts are shown below:
 
 ![image4](https://github.com/GerlechJen/Amazon_Vine_Analysis/blob/main/Images/Vine%20count.png)
 
